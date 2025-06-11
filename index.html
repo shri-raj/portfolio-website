@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0V4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+    <div class="reading-progress"></div>
+
+    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <span class="toggle-text">dark</span>
+    </button>
+
+    <header class="header fade-in">
+        <h1 class="name">shriraj patil<span class="typing-indicator"></span></h1>
+        <p class="title">machine learning - backend development.</p>
+        <div class="contact">
+            <a href="mailto:patilshriraj2602@gmail.com">mail</a>
+            <a href="https://github.com/shri-raj">github</a>
+            <a href="https://linkedin.com/in/shrirajpatil">linkedin</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section fade-in">
+            <h2 class="section-title">about</h2>
+            <p class="about">
+                I'm a software engineer passionate about solving complex problems through elegant code. I specialize in backend development, machine learning, and mobile applications using C++, Python, and Java.
+                Technical Skills: Spring Boot, TensorFlow, Flask, Data Structures & Algorithms, Android Development
+                I thrive on transforming challenging concepts into scalable, innovative solutions that make a real impact.
+            </p>
+        </section>
+
+        <section class="section fade-in">
+            <h2 class="section-title">projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/SwipeFlix">SwipeFlix</a>
+                    </div>
+                    <div class="project-tech">ml, recommender system, python, react</div>
+                    <div class="project-description">
+                        A movie recommendation system that mimics Tinder-style swiping. Each swipe action influences the underlying ML model to generate personalized movie suggestions in real-time.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/SwipeFlix">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/online_bookstore">Online Bookstore</a>
+                    </div>
+                    <div class="project-tech">java, springboot, postgres, jwt</div>
+                    <div class="project-description">
+                        A Spring Boot-based backend for an online bookstore, featuring secure user authentication, book inventory management, and order processing using JWT and PostgreSQL.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/online_bookstore">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/FutureQuest">FutureQuest</a>
+                    </div>
+                    <div class="project-tech">python, html, css, flask, ml, decision trees</div>
+                    <div class="project-description">
+                        A career counseling web app that uses a machine learning model based on decision trees to guide users through a questionnaire and recommend suitable career paths.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/FutureQuest">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/Poacher-Detection-Using-YOLOv8">Poacher Detection Using YOLOv8</a>
+                    </div>
+                    <div class="project-tech">computervision, yolov8, neuralnetworks, jupyter nbs, streamlit</div>
+                    <div class="project-description">
+                        A dual-modality surveillance system using YOLOv8 and deep learning for real-time poacher detection. Identifies visual cues (humans, weapons) and audio triggers (gunshots, chainsaws) via computer vision and sound classification.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/Poacher-Detection-Using-YOLOv8">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/Ripeness-Radar">Ripeness Radar</a>
+                    </div>
+                    <div class="project-tech">python, dl, neural networks, gradio, jupyter nbs</div>
+                    <div class="project-description">
+                        A deep learning-based application that classifies fruits into freshness categories using images and videos. Built with neural networks and deployed via Gradio for an interactive demo.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/Ripeness-Radar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/TaskBuddy">TaskBuddy</a>
+                    </div>
+                    <div class="project-tech">kotlin, jetpack compose, room db</div>
+                    <div class="project-description">
+                        A simple yet elegant Android to-do list app built with Jetpack Compose and Room DB. Allows users to add, update, and manage daily tasks efficiently with a smooth UI.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/TaskBuddy">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/MyKanban">MyKanban</a>
+                    </div>
+                    <div class="project-tech">java, spring boot, h2</div>
+                    <div class="project-description">
+                        A lightweight backend service built with Spring Boot and H2 database to handle APIs for a Kanban board. Supports task creation, status updates, and column organization.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/MyKanban">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/portfolio-website">Portfolio Website</a>
+                    </div>
+                    <div class="project-tech">html, css, js</div>
+                    <div class="project-description">
+                        A simple and responsive personal portfolio website built using HTML, CSS, and JavaScript. It showcases my projects, skills, and contact information in a clean, modern layout.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/your-username/portfolio-website">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-name">
+                        <a href="https://github.com/shri-raj/AttendEase">AttendEase</a>
+                    </div>
+                    <div class="project-tech">python, tkinter, opencv</div>
+                    <div class="project-description">
+                        A desktop-based class attendance system using OpenCV for QR code detection on ID and Tkinter for GUI. Streamlines attendance marking with real-time camera input and user-friendly interface.
+                    </div>
+                    <div class="project-demo">
+                        <button class="demo-button" data-github="https://github.com/shri-raj/AttendEase">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="github-icon" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.7-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <span class="demo-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                
+            
+            </div>
+        </section>
+
+        <section class="section fade-in">
+            <h2 class="section-title">skills & my journey</h2>
+            <div class="misc-grid">
+                <div class="misc-item floating">
+                    <h3>Programming Languages</h3>
+                    <div class="misc-content">
+                        <span class="highlight">c/c++</span> core programming<br>
+                        <span class="highlight">python</span> ML & backend<br>
+                        <span class="highlight">java</span> spring development<br>
+                        <span class="highlight">kotlin</span> android apps
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Backend Technologies</h3>
+                    <div class="misc-content">
+                        <span class="highlight">spring boot</span> with JPA<br>
+                        <span class="highlight">flask</span> & <span class="highlight">django</span><br>
+                        <span class="highlight">postgresql</span> database<br>
+                        <span class="highlight">mongodb</span> NoSQL
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Machine Learning</h3>
+                    <div class="misc-content">
+                        <span class="highlight">tensorflow</span> deep learning<br>
+                        <span class="highlight">scikit-learn</span> ML models<br>
+                        <span class="highlight">numpy</span> & <span class="highlight">pandas</span><br>
+                        <span class="highlight">matplotlib</span> visualization
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Mobile Development</h3>
+                    <div class="misc-content">
+                        <span class="highlight">android studio</span> IDE<br>
+                        <span class="highlight">jetpack compose</span> UI<br>
+                        <span class="highlight">kotlin</span> development<br>
+                        <span class="highlight">figma</span> design
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Development Tools</h3>
+                    <div class="misc-content">
+                        <span class="highlight">git</span> version control<br>
+                        <span class="highlight">postman</span> API testing<br>
+                        <span class="highlight">jwt</span> authentication<br>
+                        <span class="highlight">opencv</span> computer vision
+                    </div>
+                </div>
+
+                <div class="misc-item floating">
+                    <h3>Achievements</h3>
+                    <div class="misc-content">
+                        <span class="highlight">leetcode</span> 1736 rating<br>
+                        <span class="highlight">600+</span> problems solved<br>
+                        <span class="highlight">top 10%</span> leetcode
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer fade-in">
+        <p>--Trust the process--</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
